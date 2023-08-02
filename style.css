@@ -1,0 +1,47 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.header{
+    height: 72px;
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logo{
+    position: absolute;
+    left: 15px;
+}
+
+.navigation{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    padding-right: 90px;
+    align-items: center;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: #1B365D;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.log_btn{
+    margin-left: 52px;
+    color: #1B365D;
+    text-align: center;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    background-color: #fff;
+    border: solid 1px #1B365D;
+    border-radius: 4px;
+    padding: 6px 24px;
+}
