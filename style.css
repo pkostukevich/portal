@@ -134,3 +134,66 @@ h1, h2, h3, h4, h5, h6, p{
     font-weight: 700 !important;
 }
 
+.section2{
+    height: 100vh;
+}
+
+.options{
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* gap: 10px; */
+    justify-content: space-between;
+}
+
+.option{
+    height: 80vh;
+    width: 24%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.option#option1{
+    background-image: url(./assets/option1.png);
+    background-size: cover;
+}
+.option#option2{
+    background-image: url(./assets/option2.png);
+    background-size: cover;
+}
+.option#option3{
+    background-image: url(./assets/option3.png);
+    background-size: cover;
+}
+.option#option4{
+    background-image: url(./assets/option4.png);
+    background-size: cover;
+}
+
+.option_text{
+    position: relative;
+    bottom: 60px;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    width: 70%;
+}
+
+.option_header{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+h2.section3_h{
+    color: #1B365D;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px;
+}
