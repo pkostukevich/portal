@@ -135,11 +135,12 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 .section2{
-    height: 100vh;
+    height: 90vh;
+    padding-top: 15vh;
 }
 
 .options{
-    margin-top: 15vh;
+    /* margin-top: 15vh; */
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -190,10 +191,65 @@ h1, h2, h3, h4, h5, h6, p{
     line-height: 30px;
 }
 
+.blue_bcg{
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    bottom: 60vh;
+    background-color: #D0E8EA;
+    z-index: -1;
+}
+
 h2.section3_h{
     color: #1B365D;
     font-size: 50px;
     font-style: normal;
     font-weight: 700;
     line-height: 55px;
+}
+
+.section3_img{
+    width: 100%;
+    height: auto;
+    margin: 35px auto;
+}
+
+.benefits{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.benefit{
+    max-width: 40%;
+}
+
+.benefit_h{
+    color: #1B365D;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; 
+    margin-bottom: 10px;
+}
+
+.benefit_text{
+    color: #434141;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    margin-bottom: 15px;
+}
+
+.benefit_more{
+    color: #1B365D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 10px;
 }
