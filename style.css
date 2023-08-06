@@ -311,7 +311,7 @@ h2.section3_h{
     background-repeat: no-repeat;
 }
 
-.section5 .wrapper{
+.section5_wrapper{
     padding-top: 45vh;
 }
 
@@ -353,3 +353,31 @@ h2.section3_h{
     margin-left: -24px;
     padding-left: 18px;
 }
+
+.section6{
+    height: 100vh;
+    display: flex;
+    padding: 80px;
+}
+
+.section6_h{
+    margin: 13px 0 20px 0;
+}
+
+.section6_button{
+    border-radius: 24px;
+    border: 1px solid #ADD4E0;
+    background-color: #ADD4E0;
+    color: #1B365D;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 20px;
+    padding: 13px 25px;
+    margin-top: 45px;
+}
+
+.section6_img{
+    margin: auto;
+}
+
