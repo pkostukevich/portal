@@ -356,8 +356,11 @@ h2.section3_h{
 
 .section6{
     height: 100vh;
+    padding: 80px 0;
+}
+
+.section6 .wrapper{
     display: flex;
-    padding: 80px;
 }
 
 .section6_h{
@@ -377,7 +380,32 @@ h2.section3_h{
     margin-top: 45px;
 }
 
+.section6_img_wrapper{
+    width: 60%;
+}
+
+
 .section6_img{
     margin: auto;
 }
 
+.section6_advantages{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    transform: translateX(30vh);
+}
+
+.advantage1{
+    width: 48%;
+    background-image: url(./assets/advantage1.png);
+}
+
+.advantage2{
+    width: 48%;
+    background-image: url(./assets/advantage2.png);
+}
+
+.section7{
+    background-color: #D0E7EA;
+}
