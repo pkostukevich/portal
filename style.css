@@ -382,6 +382,16 @@ h2.section3_h{
 
 .section6_img_wrapper{
     width: 60%;
+    margin-bottom: 50px;
+}
+
+.section6_img_wrapper div{
+    color: #AEABA8;
+    text-align: center;
+    font-size: 11px;
+    font-style: normal; 
+    font-weight: 400;
+    line-height: 18px;
 }
 
 
@@ -393,19 +403,105 @@ h2.section3_h{
     width: 100%;
     display: flex;
     gap: 20px;
-    transform: translateX(30vh);
+    height: 50vh;
+    /* transform: translateY(30vh); */
 }
 
 .advantage1{
-    width: 48%;
+    height: 40vw;
+    max-height: 622px;
+    width: 622px;
     background-image: url(./assets/advantage1.png);
+    background-size: cover;
 }
 
 .advantage2{
-    width: 48%;
+    height: 40vw;
+    max-height: 622px;
+    width: 622px;
     background-image: url(./assets/advantage2.png);
+    background-size: cover;
 }
 
 .section7{
     background-color: #D0E7EA;
+    height: fit-content;
+    padding: 30px 0;
+}
+
+.section7_h{
+    width: 480px;
+    margin-bottom: 32px;
+}
+
+.section7_descr{
+    display: flex;
+    margin-bottom: 45px;
+}
+
+.devices_wrapper{
+    margin: 55px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+.device_card{
+    height: 465px;
+    background-color: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 18px;
+}
+
+.device_card--header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #1B365D;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 26px;
+}
+
+.device_card--currency{
+    font-size: 10px;
+    line-height: 14px;
+    vertical-align: top;
+}
+
+.device_card img{
+    margin: 25px auto;
+}
+
+.device_descr{
+    text-align: center;
+    width: 145px;
+    font-size: 15px;
+    line-height: 20px;
+    color: #434140;
+}
+
+.device_buy_btn{
+    border-radius: 24px;
+    border: 1px solid #1877F2;
+    background: #1877F2;
+    padding: 13px 25px;
+    margin: 44px auto 25px auto;
+    color: #fff;
+}
+
+.device_more{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.white_btn{
+    margin: auto;
+    border-radius: 24px;
+    border: 1px solid #FFF;
+    background-color: #FFF;
+    padding: 13px 33px;
+    width: fit-content;
 }
